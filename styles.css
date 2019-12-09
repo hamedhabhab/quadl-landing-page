@@ -1,0 +1,206 @@
+body
+{
+  background-color: #d6d6d6;
+  margin: auto;
+}
+
+.center {
+    margin: auto;
+
+}
+
+.one {
+  display: inline-block;
+  background-color:rgb(94, 226, 94);
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left:auto;  
+  { transition: all .2s ease-in-out; }
+
+}
+
+.one:hover {
+    position: absolute;
+    background-color:rgb(94, 226, 94));
+    width: 100%;
+    z-index: 4;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+.two {
+      display: inline-block;
+      background-color:rgb(247, 82, 82);
+      width: 25%;
+      height: 100%;
+      position: absolute;
+      left:25%;  
+      z-index: 1;
+
+  }
+
+.two:hover {
+    position: absolute;
+    background-color:rgb(247, 82, 82);
+    width: 100%;
+    z-index: 4;
+    left:0%;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+  }
+
+
+.three {
+  display: inline-block;
+  background-color:rgb(86, 86, 255);
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left:50%;
+} 
+
+.three:hover {
+  position: absolute;
+  background-color:rgb(86, 86, 255);
+  width: 100%;
+  z-index: 4;
+  left:0%;
+  transition: all .2s ease-in-out;
+  display: flex;
+  justify-content: center;
+} 
+  
+
+.four {
+  display: inline-block;
+  background-color:rgb(216, 216, 68);
+  width: 25%;
+  height: 100%;
+  left: 75%;  
+  position: absolute;
+}
+
+.four:hover {
+  position: absolute;
+  background-color:rgb(240, 240, 96);
+  width: 100%;
+  z-index: 4;
+  left: 0%;  
+  transition: all .2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* h1 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+    color: white;
+    padding: 30px;
+}
+
+h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+  
+/* h2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   */
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+
+h3 {
+      color: white;
+      font-size: 17px;
+  }
+
+.one-content {
+    font-family: Arial, Helvetica, sans-serif;
+      color: rgb(117, 108, 108);
+      padding: 30px;
+  }
+
+.two-content {
+    font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      padding: 30px;
+  }
+
+.three-content {
+    font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      padding: 30px;
+  }
+
+
+.four-content {
+    font-family: Arial, Helvetica, sans-serif;
+      color: rgb(117, 108, 108);
+      padding: 30px;
+  }
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+  }
+
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.flex-container-one > div {
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 17px;
+  } */
+
+button {
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      background-color: rgb(26, 194, 68);
+  }
+
+button:hover {
+    border: thin;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(145, 243, 169);
+    cursor: pointer;
+}
